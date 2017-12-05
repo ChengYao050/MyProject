@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcoreapplication:
+    image: netcoreapplication
+    build:
+      context: ./NETCoreApplication
+      dockerfile: Dockerfile
